@@ -79,7 +79,17 @@
 }
 
 @media (max-width:750px){
-    .navbar-middle{
-        display: none;
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-middle {
+        display: flex;
+        margin-top: 10px; /* Add some spacing between logo and menu items */
+    }
+
+    .navbar button{
+        margin-top: 20px;
     }
 }
