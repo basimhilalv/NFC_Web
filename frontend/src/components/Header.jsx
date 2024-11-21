@@ -2,10 +2,7 @@ import React, { useState,useEffect } from 'react'
 import './Header.css'
 
 const backgroundImages = [
-  './dexlee.jpg',
-  './fuaadNFC2final.jpg',
-  './fuaadNFC3final.jpg',
-  './fuaadNFC4final.jpg'
+  './dexlee.jpg'
 ]
 
 const Header = () => {
