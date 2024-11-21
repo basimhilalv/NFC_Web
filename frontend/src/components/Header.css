@@ -73,6 +73,9 @@
 }
 
 @media (max-width:750px){
+    .header{
+        height: 60vw;
+    }
     .header-contents{
         max-width: 65%;
     }
@@ -80,6 +83,7 @@
         display: none;
     }
     .header-contents button{
-        padding: 2vw 4vw;
+        padding: 1vw 2vw;
+        font-size: max(0.5vw,12px)
     }
 }
