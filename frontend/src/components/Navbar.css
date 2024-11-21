@@ -5,6 +5,11 @@
     align-items: center;
 }
 
+.navbar .active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid #d10c0c;
+}
+
 .navbar .logo{
     width: 90px;
 }
