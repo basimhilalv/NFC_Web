@@ -9,8 +9,8 @@ const Home = () => {
   return (
     <div>
       <Header/>
-      <MenuCategory category={category} setCategory={setCategory} />
-      <FoodTile category={category}/>
+      {/* <MenuCategory category={category} setCategory={setCategory} />
+      <FoodTile category={category}/> */}
     </div>
   )
 }
